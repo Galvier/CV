@@ -39,6 +39,11 @@ section{
 .about, .skills,  footer{
     font-family: 'Poppins', sans-serif;
 }
+
+.about, .skills, .qualification, .portfolio{
+    min-height: 100vh;
+}
+
 .about .about-content,
  .serv-content,
 .skills .skills-content,
@@ -229,7 +234,7 @@ section .title::after{
     background: none;
 }
 
-/* about section styling */
+/* ************** about section styling ************* */
 .about .title::after{
     content: "Quem sou eu";
 }
@@ -272,6 +277,7 @@ section .title::after{
     color: crimson;
     background: none;
 }
+
 /* skills section styling */
 
 .skills .title::after{
@@ -349,7 +355,7 @@ section .title::after{
 
 /* Qualification */
 .qualification .title::after{
-    content: "qualification";
+    content: "Qualificação";
 }
 
 hr{
@@ -407,7 +413,7 @@ hr{
 /* Portfolio section styling*/
 
 .portfolio .title::after{
-    content: "My projects";
+    content: "Meus projetos";
 }
 
 .portfolio-space{
@@ -427,6 +433,7 @@ hr{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition: all 0.5s;
     cursor: pointer;
+    background-color: rgba(133, 95, 102, 0.479);
 }
 
 .portfolio-space .project  img{
@@ -474,7 +481,7 @@ hr{
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "Me escreva";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
