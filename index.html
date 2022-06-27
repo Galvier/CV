@@ -23,9 +23,18 @@
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#qualification">Qualificações</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
+            <div class="language">
+                <div class="language-selected">
+                    PT-BR
+                </div>
+                    <ul>
+                        <li><a href="#" class="br">Português</a></li>
+                        <li><a href="#" class="en">English</a></li>
+                    </ul>
+            </div>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
             </div>
@@ -33,7 +42,7 @@
     </nav>
 
     <!-- home section start -->
-    <section class="home" id="home">
+    <section class="home">
         <div class="max-width">
             <div class="circle"></div>
             <div class="circle-2"></div>
@@ -41,13 +50,13 @@
             <div class="home-content">
                 <div class="text-1">Olá, bem vindo ao meu site!</div>                
                 <div class="text-2">Jonathan Galvier</div>
-                <div class="text-3"><span>Desenvolvedor</span> web</div>
+                <div class="text-3"><span id="developer" class="dev">Desenvolvedor</span> web</div>
             </div>
         </div>
      </section>
 
     <!-- about section start -->
-    <section class="about" id="about">
+    <section class="about">
         <div class="max-width">
             <h2 class="title">Sobre mim</h2>
             <div class="about-content">
@@ -66,7 +75,7 @@
     </section>
 
     <!-- skills section start -->
-    <section class="skills" id="skills">
+    <section class="skills">
         <div class="max-width">
             <h2 class="title">Skills</h2>
             <div class="skills-content">
@@ -123,29 +132,26 @@
     </section>
 
     <!-- Qualification section start -->
-    <section id="qualification" class="qualification">
+    <section class="qualification">
         <div class="max-width">
-            <h2 class="title">Experiencia e educação</h2>
+            <h2 class="title">Experiência e educação</h2>
             <div class="qualification-space">
                 
-
-
                 <div class="education-1">
-
-                <div class="qualification__container">
+                    <div class="qualification__container">
                         <h2 class="qualification__title">
                             <i class="fas fa-graduation-cap"></i>
                             Educação
                         </h2>
                     </div>      
                             <div class="qualification__example">
-                                <h3 class="qualification__area">Graduado em Ciência e Tecnologia</h3>
+                                <h3 class="qualification__area" id="edu1_area_1">Graduado em Ciência e Tecnologia</h3>
                                     <div class="qualification__box">
                                         <span class="qualification__matters">
                                             <i class="fas fa-book"></i>
-                                            UFVJM - (Bacharelado)
+                                            UFVJM - Diamantina, MG
                                         </span>
-                                        <span class="qualification__year">
+                                        <span class="qualification__year" id='edu1_year_1'>
                                             <i class="far fa-calendar-alt"></i>
                                             Dez 2017 - Completo
                                         </span>
@@ -154,13 +160,13 @@
                             </div>
 
                             <div class="qualification__example">
-                                <h3 class="qualification__area">Desenvolvedor Front End</h3>
+                                <h3 class="qualification__area" id="edu1_area_2">Desenvolvedor Front End</h3>
                                     <div class="qualification__box">
                                         <span class="qualification__matters">
                                             <i class="fas fa-book"></i>
                                             More Bank Ltda
                                         </span>
-                                        <span class="qualification__year">
+                                        <span class="qualification__year" id="edu1_year_2">
                                             <i class="far fa-calendar-alt"></i>
                                             Jun 2022 - Atualmente
                                         </span>
@@ -183,13 +189,13 @@
                                     </h2>
                                 </div>      
                                         <div class="qualification__example">
-                                            <h3 class="qualification__area">JavaScript</h3>
+                                            <h3 class="qualification__area" id="edu2_area_1">JavaScript</h3>
                                                 <div class="qualification__box">
                                                     <span class="qualification__matters">
                                                         <i class="fas fa-book"></i>                                                        
-                                                        Dev Media - certificado
+                                                        Dev Media
                                                     </span>
-                                                    <span class="qualification__year">
+                                                    <span class="qualification__year" id="edu2_year_1">
                                                         <i class="far fa-calendar-alt"></i>
                                                         Abr 2022
                                                     </span>
@@ -198,29 +204,29 @@
                                         </div>
                 
                                         <div class="qualification__example">
-                                            <h3 class="qualification__area">Gestão e Governança TI</h3>
+                                            <h3 class="qualification__area"id="edu2_area_2">Gestão e Governança TI</h3>
                                                 <div class="qualification__box">
                                                     <span class="qualification__matters">
                                                         <i class="fas fa-book"></i>
-                                                        Unopar - certificado
+                                                        Unopar
                                                     </span>
-                                                    <span class="qualification__year">
+                                                    <span class="qualification__year"id="edu2_year_2">
                                                         <i class="far fa-calendar-alt"></i>
-                                                        Mar 2022 - Completo
+                                                        Mar 2022
                                                     </span>
                                                     <hr>
                                                 </div>
                                         </div>
                                         <div class="qualification__example">
-                                            <h3 class="qualification__area">Arquiteto de Soluções</h3>
+                                            <h3 class="qualification__area"id="edu2_area_3">Arquiteto de Soluções</h3>
                                                 <div class="qualification__box">
                                                     <span class="qualification__matters">
                                                         <i class="fas fa-book"></i>
-                                                        IGTI - certificado
+                                                        IGTI
                                                     </span>
-                                                    <span class="qualification__year">
+                                                    <span class="qualification__year" id="edu2_year_3">
                                                         <i class="far fa-calendar-alt"></i>                                                                                                     
-                                                        Out 2021 - Completo
+                                                        Out 2021
                                                     </span>
                                                     <hr>
                                                 </div>
@@ -232,21 +238,20 @@
     </section>
 
     <!-- Portfolio section start -->
-    <section id="portfolio" class="portfolio">
+    <section class="portfolio">
         <div class="max-width">
-            <h2 class="title">Meu Portfolio</h2>
+            <h2 class="title">Meu portfolio</h2>
             <div class="portfolio-space">
                 <div class="project" onclick="open_link_fl()"><div class="info"><div class="info-type"><i class="fa-solid fa-gears"></i> Trabalhando</div><div class="info-data">Em breve.. </div></div></div>
                 <div class="project" onclick="open_link_fl()"><div class="info"><div class="info-type"><i class="fa-solid fa-gears"></i> Trabalhando</div><div class="info-data">Em breve.. </div></div></div>
                 <div class="project" onclick="open_link_fl()"><div class="info"><div class="info-type"><i class="fa-solid fa-gears"></i> Trabalhando</div><div class="info-data">Em breve.. </div></div></div>
-                <div class="project" onclick="open_link_fl()"><div class="info"><div class="info-type"><i class="fa-solid fa-gears"></i> Trabalhando</div><div class="info-data">Em breve.. </div></div></div>
-                <!-- <div class="project" onclick="open_link_fr()"><div class="info"><div class="info-type"><i class="fab fa-react"></i> React</div><div class="info-data">Form React. </div></div><img src="images/Form-react.png" alt=""></div> -->                
+                <div class="project" onclick="open_link_fl()"><div class="info"><div class="info-type"><i class="fa-solid fa-gears"></i> Trabalhando</div><div class="info-data">Em breve.. </div></div></div>               
             </div>
         </div>
     </section>   
 
     <!-- contact section start -->
-    <section class="contact" id="contact">
+    <section class="contact">
         <div class="max-width">
             <h2 class="title">Contato</h2>
             <div class="contact-content">
@@ -313,6 +318,7 @@
     </footer>
 
     <script src="port.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </body>
 
 </html>

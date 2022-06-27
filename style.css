@@ -133,6 +133,90 @@ section .title::after{
     color: #fff;
 }
 
+.language{
+    position: relative;
+
+}
+
+.language-selected {
+    display: flex;
+    align-items: stretch;
+    color:#fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.language-selected::before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(https://flagcdn.com/br.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+.language ul {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.555);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+    display: none;
+}   
+
+.language ul li{
+    list-style: none;
+    padding-top: 2px;
+}
+
+.language ul li:hover{
+    background-color: #f8f8f8;
+}
+
+.language ul li a{
+    display: inline-flex;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    color: #280147;
+    font-weight: 500;
+}
+
+.language ul li a::before{
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+a.en:before{
+    background-image: url(https://flagcdn.com/us.svg);
+}
+a.br:before{
+    background-image: url(https://flagcdn.com/br.svg);
+}
+
+.language:hover ul{
+    display: block;
+}
+
+/* JQuery Class */
+.language-selected.change-br::before{
+    background-image: url(https://flagcdn.com/br.svg);
+}
+.language-selected.change-en::before{
+    background-image: url(https://flagcdn.com/us.svg);
+    width: 30px;
+    height: 30px;
+}
+
+
 /* menu btn styling */
 .menu-btn{
     color: #fff;
