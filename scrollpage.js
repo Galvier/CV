@@ -12,8 +12,10 @@ function scrollToId(event){
 
 function getScrollByHref (element){
     const id = element.getAttribute('href');
-    const top = document.querySelector(id);
+    const refer = `[href*="${id}"]`;
+    const top = document.querySelector(refer);
     // const off = top.offsetTop
     console.log(id);
+    console.log(refer);
     console.log(top);
 }
