@@ -7,14 +7,15 @@ $(document).ready(function(){
             $('.navbar').removeClass("sticky");
         }
     });
-    //page scroll
-
+    //sandwich bar
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
 
 });
+
+
 
 // function open_link_ne(){
 //     window.open('');
