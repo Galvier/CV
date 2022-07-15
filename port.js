@@ -15,8 +15,6 @@ $(document).ready(function(){
 
 });
 
-
-
 // function open_link_ne(){
 //     window.open('');
 // };

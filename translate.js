@@ -35,7 +35,7 @@ $(function() {
         $('#edu1_area_2').text('Desenvolvedor Front End')
         $('#edu1_year_2').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Jun 2022 - Atualmente");
             //seção 2
-        $(".education-1 .qualification__title").text("").append("<i class='fas fa-rocket'>" + "</i>" + " Certificados");
+        $(".education-2 .qualification__title").text("").append("<i class='fas fa-rocket'>" + "</i>" + " Certificados");
         $('#edu2_area_1').text('JavaScript')
         $('#edu2_year_1').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Abr 2022");
         $('#edu2_area_2').text('Gestão e Governança TI')
