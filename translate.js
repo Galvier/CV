@@ -46,7 +46,25 @@ $(function() {
         $(".portfolio .title").text("Meu portfólio");
         $('portfolio-space .info-type').text("").append("<i class='fa-solid fa-gears'>" + "</i>" + " Trabalhando");
         $('portfolio-space .info-data').text("Em breve..");
-        
+        //Contato
+        $(".contact .title").text("Contato");
+        //seção 1
+        $(".contact .left .text").text("Quer conversar comigo?");
+        $(".contact .left .text").children().text("!Se quiser conversar ou discutir algo pode mandar um e-mail ao lado ou ir nas minhas redes sociais abaixo.");
+        $("#nomeCont").text("Nomell");
+        $("#endCont").text("Endereço");
+        $("#emailCont").text("E-mail");
+        //seção 2
+        $(".contact .right .text").text("Me envie uma mensagem");
+        //form
+        $(".contact .right .name").text("").append("<input name='name' type='text' placeholder='Nome' required>")
+        $(".contact .right .email").text("").append("<input name='email' type='hidden' placeholder='Seu e-mail' required>")
+        $(".contact .right .assunto").text("").append("<input name='subject' type='text' placeholder='Assunto' required>")
+        $(".contact .right .textarea").text("").append("<textarea name='message' cols='30' rows='10' placeholder='Mensagem..' required></textarea>")
+        $(".contact .right .button-area").text("").append("<button type='submit'>Enviar</button>");
+        //footer
+        $("#footer").text("").append('<span>| Feito por <a href="https://github.com/galvier" target="_blank">Jonathan Galvier</a> | <a href="https://github.com/galvier" target="blank"><i class="fab fa-github"></i></a> | <a href="https://www.linkedin.com/in/jonathangalvier" target="blank"><i class="fab fa-linkedin"></i></a>');
+
     });
 });
 
