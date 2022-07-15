@@ -213,7 +213,22 @@ a.br:before{
 .language-selected.change-en::before{
     background-image: url(https://flagcdn.com/us.svg);
     width: 30px;
-    height: 30px;
+    height: 30px;   
+}
+.about .title.change-en::after{
+    content: "Who I'm";
+}
+.skills .title.change-en::after{
+    content: "What I know";
+}
+.qualification .title.change-en::after{
+    content: "Qualifications";
+}
+.portfolio .title.change-en::after{
+    content: "My projects";
+}
+.contact .title.change-en::after{
+    content: "Write me";
 }
 
 
