@@ -450,7 +450,7 @@ a.br:before{
     align-content: center;
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
-    justify-items: end;
+    justify-items: center;
 }
 
 .info i{
