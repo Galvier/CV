@@ -412,31 +412,31 @@ a.br:before{
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
 }
-.skills .skills-content .right .info{
+.skills .skills-content .right{
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
-.skills .skills-content .right span{
+.skills .skills-content .right_skill span{
     font-weight: 500;
     font-size: 18px;
 }
-.skills .skills-content .right .line{
+/* .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
     background: lightgrey;
     position: relative;
-}
-.skills .skills-content .right .line::before{
+} */
+/* .skills .skills-content .right .line::before{
     content: "";
     position: absolute;
     height: 100%;
     left: 0;
     top: 0;
     background: crimson;
-}
-.skills-content .right .html::before{
+} */
+/* .skills-content .right .html::before{
     width: 100%;
 }
 .skills-content .right .css::before{
@@ -444,11 +444,24 @@ a.br:before{
 }
 .skills-content .right .js::before{
     width: 100%;
+} */
+.right_skill{
+    display: grid;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: end;
 }
 
 .info i{
     color: red;
     font-size: 150%;
+}
+
+.info_skill{
+    width: 80px;
+    padding: 5px;
+    text-align: center;
 }
 
 
