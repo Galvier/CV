@@ -1,3 +1,4 @@
+//funçoes anonimas
 $(document).ready(function(){
     $(window).scroll(function(){
         //menu scroll effect

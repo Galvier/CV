@@ -1,9 +1,4 @@
-const menuItens = document.querySelectorAll('.menu a[href^="#"]');
 
-menuItens.forEach(item => {
-    item.addEventListener('click', scrollToId);
-
-})
 
 function scrollToId(event){
     event.preventDefault();
@@ -16,3 +11,5 @@ function getScrollByHref (element){
      // console.log(top);
     window.scroll(0,top)
 }
+
+export {scrollToId, getScrollByHref}

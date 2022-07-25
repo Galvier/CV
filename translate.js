@@ -1,4 +1,4 @@
-$(function() {
+$(function(){
     $(".br").click(function(){
         //Cabeçalho
         $(".menu").children().eq(0).children().text("Início");
@@ -73,7 +73,7 @@ $(function() {
     });
 });
 
-$(function() {
+$(function(){
     $(".en").click(function(){
         //Cabeçalho
         $(".menu").children().eq(0).children().text("Home"); //solução
@@ -148,5 +148,3 @@ $(function() {
 
     });
 });
-
-
