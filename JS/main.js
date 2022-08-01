@@ -1,5 +1,5 @@
-import { scrollToId } from "/funções/scrollpage.js";
-import { getScrollByHref } from "../funções/scrollpage.js";
+import { scrollToId } from "/funcoes/scrollpage.js";
+import { getScrollByHref } from "/funcoes/scrollpage.js";
 
 const menuItens = document.querySelectorAll('.menu a[href^="#"]');
 
