@@ -12,4 +12,4 @@ function getScrollByHref (element){
     window.scroll(0,top)
 }
 
-export {scrollToId, getScrollByHref}
+export default scrollToId;
