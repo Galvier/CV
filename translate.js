@@ -28,7 +28,7 @@ $(function(){
         //Skills
         $(".skills .title").text("Skills");
         $(".skills .text").text("Minhas habilidades");
-        $(".skills .left").children().eq(1).text("Alinhei aqui, em ordem decrescente, as linguagens e tecnologias que tenho mais experiência. Sou fascinado pelo resultado imediato, então é esperado que eu seja mais adepto da web e linguagens relacionadas (como JavaScript). Além de grande potência, essas tecnologias permitiram mensurar meu aprendizado com mais velocidade além de fomentar mais a criatividade e liberdade nos projetos.");
+        $(".skills .left").children().eq(1).text("Alinhei aqui, as linguagens e tecnologias que tenho mais experiência. Sou fascinado pelo resultado imediato, então escolhi inicialmente começar com a web e linguagens relacionadas (como JavaScript, por ser uma linguagem full stack) e depois me aventurar em linguagens Back-end. Além de grande potência, essas tecnologias permitiram mensurar meu aprendizado com mais velocidade além de fomentar mais a criatividade e liberdade nos projetos.");
         // console.log(document.body.childNodes);
         //Qualificações
         $(".qualification .title").text("Experiência e educação");
@@ -42,6 +42,8 @@ $(function(){
         $(".education-2 .qualification__title").text("").append("<i class='fas fa-rocket'>" + "</i>" + " Certificados");
         $('#edu2_area_1').text('JavaScript')
         $('#edu2_year_1').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Abr 2022");
+        $('#edu2_area_4').text('React')
+        $('#edu2_year_4').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Ago 2022");
         $('#edu2_area_2').text('Gestão e Governança TI')
         $('#edu2_year_2').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Mar 2022");
         $('#edu2_area_3').text('Arquiteto de Soluções')
@@ -51,6 +53,12 @@ $(function(){
         $(".portfolio .title").text("Meu portfólio");
         $('.portfolio-space .info-type').text("").append("<i class='fa-solid fa-gears'>" + "</i>" + " Trabalhando");
         $('.portfolio-space .info-data').text("Em breve..");
+        $('.portfolio-space #nft-lang').text("").append("<i class='fa-brands fa-react'>" + "</i>" + " React");
+        $('.portfolio-space #nft').text("Minte sua NFT");
+        $('.portfolio-space #dao-lang').text("").append("<i class='fab fa-js-square'>" + "</i>" + " JavaScript");
+        $('.portfolio-space #dao').text("Dev DAO");
+        $('.portfolio-space #imc-lang').text("").append("<i class='fab fa-js-square'>" + "</i>" + " JavaScript");
+        $('.portfolio-space #imc').text("calculadora de IMC");
         //Contato
         $(".contact .title").text("Contato");
         //seção 1
@@ -104,7 +112,7 @@ $(function(){
         //Skills
         $(".skills .title").text("Skills");
         $(".skills .text").text("My skills");
-        $(".skills .left").children().eq(1).text("I have lined up here, in descending order, the languages and technologies that I have the most experience with. I'm fascinated by the immediate result, so I'm expected to be more adept at the web and related languages (like JavaScript). In addition to great power, these technologies allowed me to measure my learning more quickly, in addition to fostering more creativity and freedom in projects.");
+        $(".skills .left").children().eq(1).text("I have lined up here, the languages and technologies that I have the most experience with. I'm fascinated by the immediate result, so I initially chose to start with the web and related languages (like JavaScript, as it's a full stack language) and then venture into Back-end languages. In addition to great power, these technologies allowed me to measure my learning more quickly, in addition to fostering more creativity and freedom in projects.");
         // console.log(document.body.childNodes);
         //Qualificações
         $(".qualification .title").text("Experience and education");
@@ -118,6 +126,8 @@ $(function(){
         $(".education-2 .qualification__title").text("").append("<i class='fas fa-rocket'>" + "</i>" + " Certificates");
         $('#edu2_area_1').text('JavaScript')
         $('#edu2_year_1').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Apr 2022");
+        $('#edu2_area_4').text('React')
+        $('#edu2_year_4').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Aug 2022");
         $('#edu2_area_2').text('IT Management and Governance')
         $('#edu2_year_2').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Mar 2022");
         $('#edu2_area_3').text('Solutions architect')
@@ -127,6 +137,12 @@ $(function(){
         $(".portfolio .title").text("Meu portfólio");
         $('.portfolio-space .info-type').text("").append("<i class='fa-solid fa-gears'>" + "</i>" + " Working");
         $('.portfolio-space .info-data').text("Coming soon..");
+        $('.portfolio-space #nft-lang').text("").append("<i class='fa-brands fa-react'>" + "</i>" + " React");
+        $('.portfolio-space #nft').text("NFT collection");
+        $('.portfolio-space #dao-lang').text("").append("<i class='fab fa-js-square'>" + "</i>" + " JavaScript");
+        $('.portfolio-space #dao').text("Dev DAO");
+        $('.portfolio-space #imc-lang').text("").append("<i class='fab fa-js-square'>" + "</i>" + " JavaScript");
+        $('.portfolio-space #imc').text("IMC calculator");
         //Contato
         $(".contact .title").text("Contato");
         //seção 1

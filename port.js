@@ -16,8 +16,15 @@ $(document).ready(function(){
 
 });
 
-// function open_link_ne(){
-//     window.open('');
-// };
+function open_link_fl(){
+    window.open('imc-one-sepia.vercel.app');
+};
+function open_link_NFT(){
+    window.open('https://nft-bootcamp-front-beta.vercel.app/');
+};
+function open_link_DAO(){
+    window.open('https://dao-app-web3dev.vercel.app/');
+};
+
 
 

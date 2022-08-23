@@ -554,23 +554,23 @@ hr{
     border-radius: 5px;
 }
 
-.project .info{
+.project .info {
     width: 350px;
-    height: 130px;
+    height: 50px;
     position: absolute;
-    margin-top: 170px;
-    color: crimson;
+    margin-top: 195px;
+    color: whitesmoke;
     background-color: white;
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
     font-weight: bold;
-    border-radius: 0 10px 0 0;
+    border-radius: 0 10px 10px 0;
 }
 
-.project .info .info-data{
+.project .info .info-data {
     display: flex;
     justify-content: left;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 10px;
 }
 
