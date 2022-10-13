@@ -33,11 +33,13 @@ $(function(){
         //Qualificações
         $(".qualification .title").text("Experiência e educação");
             //seção 1
-        $(".education-1 .qualification__title").text("").append("<i class='fas fa-graduation-cap'>" + "</i>" + " Educação");
+        $(".education-1 .qualification__title").text("").append("<i class='fas fa-graduation-cap'>" + "</i>" + " Emprego e Educação");
         $('#edu1_area_1').text('Graduado em Ciência e Tecnologia')
         $('#edu1_year_1').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Dez 2017 - Completo");
         $('#edu1_area_2').text('Desenvolvedor Front End')
         $('#edu1_year_2').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Jun 2022 - Atualmente");
+        $('#edu1_area_3').text('Desenvolvedor Back End')
+        $('#edu1_year_3').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Out 2022 - Atualmente");
             //seção 2
         $(".education-2 .qualification__title").text("").append("<i class='fas fa-rocket'>" + "</i>" + " Certificados");
         $('#edu2_area_1').text('JavaScript')
@@ -49,6 +51,8 @@ $(function(){
         $('#edu2_area_3').text('Arquiteto de Soluções')
         $('#mattersXP').text("").append("<i class='fas fa-book'>" + "</i>" + " XP Educação");
         $('#edu2_year_3').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Out 2021");
+        $('#edu2_area_5').text('Java')
+        $('#edu2_year_5').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Out 2022");
         //Portfólio
         $(".portfolio .title").text("Meu portfólio");
         $('.portfolio-space .info-type').text("").append("<i class='fa-solid fa-gears'>" + "</i>" + " Trabalhando");
@@ -117,11 +121,13 @@ $(function(){
         //Qualificações
         $(".qualification .title").text("Experience and education");
             //seção 1
-        $(".education-1 .qualification__title").text("").append("<i class='fas fa-graduation-cap'>" + "</i>" + " Education");
+        $(".education-1 .qualification__title").text("").append("<i class='fas fa-graduation-cap'>" + "</i>" + " Job and Education");
         $('#edu1_area_1').text('Graduate in Science and Technology')
         $('#edu1_year_1').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Dec 2017 - Complete");
         $('#edu1_area_2').text('Front End Developer')
         $('#edu1_year_2').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Jun 2022 - At the moment");
+        $('#edu1_area_3').text('Back End Developer')
+        $('#edu1_year_3').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Oct 2022 - At the moment");
             //seção 2
         $(".education-2 .qualification__title").text("").append("<i class='fas fa-rocket'>" + "</i>" + " Certificates");
         $('#edu2_area_1').text('JavaScript')
@@ -133,6 +139,8 @@ $(function(){
         $('#edu2_area_3').text('Solutions architect')
         $('#mattersXP').text("").append("<i class='fas fa-book'>" + "</i>" + " XP Education");
         $('#edu2_year_3').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Oct 2021");
+        $('#edu2_area_5').text('Java')
+        $('#edu2_year_5').text("").append("<i class='far fa-calendar-alt'>" + "</i>" + " Oct 2022");
         //Portfólio
         $(".portfolio .title").text("Meu portfólio");
         $('.portfolio-space .info-type').text("").append("<i class='fa-solid fa-gears'>" + "</i>" + " Working");
